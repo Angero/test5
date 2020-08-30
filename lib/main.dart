@@ -27,7 +27,25 @@ class _MainState extends State<Main> {
           IconButton(icon: Icon(Icons.info_outline), onPressed: null),
         ],
       ),
-      body: Center(child: Text('12345678')),
+      body: Column(
+        children: [
+          Container(
+            width: 100.0,
+            height: 100.0,
+            color: Colors.blue,
+          ),
+          Container(
+            width: 100.0,
+            height: 100.0,
+            color: Colors.red,
+          ),
+          Container(
+            width: 100.0,
+            height: 100.0,
+            color: Colors.green,
+          ),
+        ],
+      ),
     );
   }
 }
