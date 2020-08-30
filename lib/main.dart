@@ -44,6 +44,7 @@ class _MainState extends State<Main> {
             height: 100.0,
             color: Colors.green,
           ),
+          Text('follow with me'),
         ],
       ),
     );
