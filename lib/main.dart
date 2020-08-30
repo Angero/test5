@@ -27,7 +27,7 @@ class _MainState extends State<Main> {
           IconButton(icon: Icon(Icons.info_outline), onPressed: null),
         ],
       ),
-      body: null,
+      body: Center(child: Text('12345678')),
     );
   }
 }
